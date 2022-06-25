@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 add_filter( 'genesis_breadcrumb_args', 'customize_breadcrumb' );
 function customize_breadcrumb( $args ) {
 	$args['home'] = 'Home';
-	$args['sep'] = '/';
+	$args['sep'] = ' / ';
 	$args['list_sep'] = ', '; 
 	$args['prefix'] = '<div class="breadcrumb">';
 	$args['suffix'] = '</div>';
