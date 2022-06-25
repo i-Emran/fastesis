@@ -56,3 +56,6 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 add_theme_support( 'genesis-lazy-load-images' );
 //* Add Viewport meta tag
 add_theme_support( 'genesis-responsive-viewport' );
+// Display Thumbnail
+add_post_type_support( 'post', 'genesis-singular-images' );
+add_post_type_support( 'page', 'genesis-singular-images' );
